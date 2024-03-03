@@ -1,15 +1,15 @@
-import time
+#import time
 from flask import Flask, render_template, url_for, request, session, redirect, abort, jsonify
 from werkzeug.utils import secure_filename
-import os,re
+#import os,re
 import spacy, fitz,io
 from bson.objectid import ObjectId
 from pip._vendor import cachecontrol
-import pathlib
-import requests
-import tempfile
+#import pathlib
+#import requests
+#import tempfile
 #from MediaWiki import get_search_results
-import shutil
+#import shutil
 #from utility.downloadFile import download_file
 from ResumeAnalysis.utility.downloadFile import download_file
 from ResumeAnalysis.utility.extractTextFromPdf import extractTextFromPdf

@@ -1,14 +1,14 @@
 from flask import Flask, render_template, url_for, request, session, redirect, abort, jsonify
 from werkzeug.utils import secure_filename
-import os,re
-import spacy, fitz,io
+#import os,re
+#import spacy, fitz,io
 from bson.objectid import ObjectId
 from pip._vendor import cachecontrol
-import pathlib
+#import pathlib
 import requests
 import tempfile
 #from MediaWiki import get_search_results
-import shutil
+#import shutil
 
 
 def download_file(url, download_folder):
